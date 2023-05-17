@@ -1,0 +1,37 @@
+body{
+    color: blueviolet;
+}
+
+.sing{
+    color: blue;
+}
+
+.verse { 
+    color: yellow;
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 150;
+}
+
+.song{
+    color: green;
+    font-size: 12px;
+}
+
+#verseid{ 
+    color: black;
+    background-color: blanchedalmond;
+}
+body{
+    background-color: burlywood;
+}
+.chours{
+    font-size: 50px;
+}
+.text_effect{
+    font-weight: 900;
+    font-size: 20px;
+    color: coral;
+    text-shadow: 5px 5px 5px black;
+    /* 그림자 방향을 줘야함 그림자 방향은 3군데*/
+}

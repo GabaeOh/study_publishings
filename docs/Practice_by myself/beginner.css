@@ -1,0 +1,30 @@
+h1{ 
+    color: blue;
+    text-shadow: 3px 3px 3px black;
+    font-size: 50px;
+    text-align: center;}
+
+.img{
+    text-align: center;
+}
+.total{
+    border:5px solid black;
+    margin:0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+    height: 650px;
+    width: 550px;
+}
+.full{
+    background-color: blue;
+}
+.second{
+    margin: 0px;
+}
+
+.v{
+    margin: 0 auto;
+}
+.class{
+    margin: 0px;
+}

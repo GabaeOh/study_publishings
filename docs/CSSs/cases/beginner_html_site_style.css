@@ -1,0 +1,22 @@
+h1{
+    color: blue; 
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black;
+    margin: 0;
+}
+.img{
+   text-align: center;
+}
+.background{
+    background-color: blue;
+}
+.body{
+    border: 5px solid black; 
+    width: 550px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+    height: 570px;
+    line-height: normal;
+}
