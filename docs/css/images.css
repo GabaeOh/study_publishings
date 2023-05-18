@@ -1,0 +1,36 @@
+*{
+    border: 0.1rem dotted gray;
+}
+
+.border_round_1{
+    border: 0.1rem solid red;
+    border-radius: 3rem;
+}
+
+.border_round_2{
+    border: 0.1rem solid blue;
+    /* border-radius: 1rem 2rem 3rem 4rem; */ /*왼쪽 상단부터 시게방향으로 적용*/
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.border_round_3{
+    border: 0.1rem solid blue;
+    border-radius: 1rem 2rem; /*왼쪽 대각선과 오른쪽 대각선이 같은 값*/
+}
+
+.border_round_4{
+    border: 0.1rem solid blue;
+    border-radius: 50%; /* 링크된 이미지가직사각형일 경우 타원형*/
+}
+
+.border_round_5{
+    border: 0.1rem solid blue;
+    border-radius: 50%; /*정사각형이면 원형*/
+}
+
+.border_round_6{
+    border: 0.1rem solid red;
+    border-radius: 50%; /*정사각형이면 원형*/
+    width: 100%; /*너비와 높이가 100%비율로 같이 변함 높이를 지정하고싶으면 따로 높이 값 지정 */ 
+    height: 30%; /* 화면 넓이가 변경되면 그 너비, 높이를 동일한 비율로 같이 변경하고 싶을때*/
+}
