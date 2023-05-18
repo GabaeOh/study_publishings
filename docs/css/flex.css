@@ -1,0 +1,45 @@
+.flex-container {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /*줄간격*/
+  font-size: 30px;
+}
+.flex-container_1 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row; /*방향바꾸기(정렬기준) row가 기본값 역에서부터 붙음 row-reverse colum 세로순*/
+  justify-content: space-between; /* 정렬기준 화면배율이 달라져도 정렬됨 center 중앙, start 왼쪽정렬, end 오른쪽 정렬 space-around 가운데 정렬 및 여백도 잘 나눠줌  space-between 가운데 정렬 및 양끝에 공간x*/
+}
+
+.flex-container_1 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /*줄간격*/
+  font-size: 30px;
+}
+
+.flex-container_2 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row; /*방향바꾸기(정렬기준) row가 기본값 역에서부터 붙음 row-reverse colum 세로순*/
+  justify-content: space-between; /* 정렬기준 화면배율이 달라져도 정렬됨 center 중앙, start 왼쪽정렬, end 오른쪽 정렬 space-around 가운데 정렬 및 여백도 잘 나눠줌  space-between 가운데 정렬 및 양끝에 공간x*/
+}
+
+.flex-container_2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /*줄간격*/
+  font-size: 30px;
+}
