@@ -12,11 +12,15 @@
   line-height: 75px; /*줄간격*/
   font-size: 30px;
 }
+
+/* 상단 메뉴를 구성할때 */
 .flex-container_1 {
   display: flex;
   background-color: DodgerBlue;
   flex-direction: row; /*방향바꾸기(정렬기준) row가 기본값 역에서부터 붙음 row-reverse colum 세로순*/
-  justify-content: space-between; /* 정렬기준 화면배율이 달라져도 정렬됨 center 중앙, start 왼쪽정렬, end 오른쪽 정렬 space-around 가운데 정렬 및 여백도 잘 나눠줌  space-between 가운데 정렬 및 양끝에 공간x*/
+  justify-content: space-between; /* 정렬기준 화면배율이 달라져도 정렬됨 center 중앙, start 왼쪽정렬, 
+                                  end 오른쪽 정렬 space-around 가운데 정렬 및 여백도 잘 나눠줌  
+                                  space-between 가운데 정렬 및 양끝에 공간x*/
 }
 
 .flex-container_1 > div {
@@ -28,10 +32,11 @@
   font-size: 30px;
 }
 
+/* 브라우저*/
 .flex-container_2 {
   display: flex;
   background-color: DodgerBlue;
-  flex-direction: row; /*방향바꾸기(정렬기준) row가 기본값 역에서부터 붙음 row-reverse colum 세로순*/
+  flex-direction: row; /*방향바꾸기 row가 기본값 row-reverse 역에서부터 붙음 colum 세로순*/
   justify-content: space-between; /* 정렬기준 화면배율이 달라져도 정렬됨 center 중앙, start 왼쪽정렬, end 오른쪽 정렬 space-around 가운데 정렬 및 여백도 잘 나눠줌  space-between 가운데 정렬 및 양끝에 공간x*/
 }
 
